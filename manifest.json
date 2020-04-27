@@ -1,0 +1,29 @@
+{
+    "name": "Youtube PWN!",
+    "version": "1.0",
+    "description": "Youtube PWN!",
+    "permissions": ["tabs", "activeTab", "declarativeContent", "storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "options_page": "options.html",
+    "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+        "16": "images/pwn16.ico",
+        "32": "images/pwn32.ico",
+        "48": "images/pwn48.ico",
+        "64": "images/pwn64.ico",
+        "128": "images/pwn128.ico"
+      }
+    },
+    "icons": {
+        "16": "images/pwn16.ico",
+        "32": "images/pwn32.ico",
+        "48": "images/pwn48.ico",
+        "64": "images/pwn64.ico",
+        "128": "images/pwn128.ico"
+      },
+    "manifest_version": 2
+  }
